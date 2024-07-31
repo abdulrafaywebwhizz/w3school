@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    margin-top: -20px;
+    
+}
+
+.all{
+    display: flex;
+    margin-left: -60px;
+
+}
+
+input{
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 10px;
+    background-image: url(img/search-regular-24.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+ul > li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.space > li{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.space > img{
+    margin-top: 20px;
+}
+
+
+
+.buttons{
+    margin-top: 20px;
+    margin-left: 60px;
+    
+}
+
+#tt{
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.buttons > .sign{
+    border-radius: 20px;
+    height: 45px;
+    width: 2000%;
+    border: 10px solid rgb(0, 151, 13);
+    background-color: rgb(0, 151, 13);
+    color: white;
+    font-weight: bolder;
+    font-display: relative;
+    top: -3px;
+    margin-top: -10px;
+}
+
+.buttons > .log{
+    border-radius: 20px;
+    height: 45px;
+    width: 800%;
+    border: 10px solid rgb(160, 245, 164);
+    background-color: rgb(160, 245, 164);
+    color: white;
+    font-weight: bolder;
+    font-display: relative;
+    top: -3px;
+    margin-top: -10px;
+}
+
+
+
+.buttons{
+    display: flex;
+}
+
+.scrollit{
+    background-color: lightgray;
+    width: 20%;
+    height: 104vh;
+    font-size: large;
+    overflow-y: scroll;
+}
+
+
+.h2{
+    background-color: rgb(50, 49, 49);
+    color: white;
+    
+}
+
+.h2 > ul > li{
+    text-align: center;
+}
+
+.uls{
+    margin: 20px;
+    font-size: 19px;
+}
+
+.selected:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.lorem{
+    background-color: green;
+    width: 80%;
+    position: relative;
+    left: 20%;
+    top: -100%;
+}
